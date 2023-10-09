@@ -1,3 +1,6 @@
+/**************************************************
+* This is Wrapper Class to Deserialize the Response 
+***************************************************/
 public class CountryWrapper {
 	
 		public String name;	    

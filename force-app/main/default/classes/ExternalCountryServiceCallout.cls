@@ -3,7 +3,7 @@ public class ExternalCountryServiceCallout {
      * @Name          getCountryDetails
      * @Description   This method is performing as a callout.
      * @Param		  null
-     * @Return        void()
+     * @Return        void
      * **********************************/
     public static void getCountryDetails(){
         HttpRequest request = new HttpRequest();
@@ -23,7 +23,7 @@ public class ExternalCountryServiceCallout {
      * @Name          upsertCountryDetails
      * @Description   This method is updating the country details.
      * @Param		  CountryList
-     * @Return        void()
+     * @Return        void
      * **********************************/
     public static void upsertCountryDetails(List<CountryWrapper> CountryList){
         List<Country__c> countriesInSF = new List<Country__c> ([SELECT id,Name,alpha2code__c,alpha3code__c,Capital_city__c,region__c,regionalBlocs__c from Country__c]);
